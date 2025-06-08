@@ -31,7 +31,7 @@
     --accent-tertiary: #059669;
     --border-color: rgba(0, 0, 0, 0.1);
     --shadow-color: rgba(0, 102, 204, 0.1);
-    --star-color: #cbd5e0;
+    --star-color: #0066cc;
     --gradient-primary: linear-gradient(135deg, #0066cc, #6b46c1);
     --gradient-secondary: linear-gradient(135deg, #e6f3ff, #f0e6ff);
 }
@@ -92,7 +92,11 @@ body {
 }
 
 .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
     background: var(--star-color);
+    border-radius: 50%;
     animation: twinkle 3s infinite;
 }
 
