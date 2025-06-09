@@ -3,8 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Raffelsberger - Data Scientist</title>
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Michael Raffelsberger - Data Scientist | Machine Learning Expert | Industrial AI</title>
+    <meta name="description" content="Michael Raffelsberger is a Data Scientist at craftworks GmbH specializing in industrial AI and machine learning. MSc Data Science from University of Vienna. Expert in Python, PyTorch, and MLOps.">
+    <meta name="keywords" content="Michael Raffelsberger, Data Scientist, Machine Learning, AI, Computer Vision, Python, PyTorch, Vienna, craftworks, Industrial AI, MLOps, Data Science">
+    <meta name="author" content="Michael Raffelsberger">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mraffl98.github.io/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mraffl98.github.io/">
+    <meta property="og:title" content="Michael Raffelsberger - Data Scientist | Machine Learning Expert">
+    <meta property="og:description" content="Data Scientist specializing in industrial AI and machine learning. MSc Data Science from University of Vienna.">
+    <meta property="og:image" content="https://mraffl98.github.io/images/michael.png">
+    <meta property="og:site_name" content="Michael Raffelsberger Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mraffl98.github.io/">
+    <meta property="twitter:title" content="Michael Raffelsberger - Data Scientist | Machine Learning Expert">
+    <meta property="twitter:description" content="Data Scientist specializing in industrial AI and machine learning. MSc Data Science from University of Vienna.">
+    <meta property="twitter:image" content="https://mraffl98.github.io/images/michael.png">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Michael Raffelsberger",
+        "jobTitle": "Data Scientist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "craftworks GmbH"
+        },
+        "alumniOf": [
+            {
+                "@type": "Organization",
+                "name": "University of Vienna"
+            }
+        ],
+        "email": "m.raffelsberger98@gmail.com",
+        "url": "https://mraffl98.github.io/",
+        "image": "https://mraffl98.github.io/images/michael.png",
+        "sameAs": [
+            "https://linkedin.com/in/michael-raffelsberger",
+            "https://github.com/MRaffl98",
+            "https://kaggle.com/raffelsbem98",
+            "https://www.goodreads.com/user/show/160099313-michael"
+        ],
+        "knowsAbout": [
+            "Data Science",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Computer Vision",
+            "Python Programming",
+            "PyTorch",
+            "Industrial AI",
+            "MLOps",
+            "Time Series Analysis",
+            "Deep Learning",
+            "Large Language Models"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vienna",
+            "addressCountry": "Austria"
+        }
+    }
+    </script>
 </head>
 <body>
     <div class="stars" id="stars"></div>
@@ -13,14 +86,14 @@
         <div class="nav-container">
             <div class="logo">MRaffl98</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" aria-label="About Michael Raffelsberger">About</a></li>
+                <li><a href="#timeline" aria-label="Career Timeline">Timeline</a></li>
+                <li><a href="#skills" aria-label="Technical Skills">Skills</a></li>
+                <li><a href="#projects" aria-label="Projects Portfolio">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact Information">Contact</a></li>
                 <li>
-                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                        <svg class="theme-icon" id="themeIcon" viewBox="0 0 24 24">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+                        <svg class="theme-icon" id="themeIcon" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"/>
                         </svg>
                     </button>
@@ -29,281 +102,282 @@
         </div>
     </nav>
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Michael Raffelsberger</h1>
-                <p class="subtitle">Data Scientist</p>
-                <p class="description">
-                    I solve real-world problems with cutting-edge data science and machine learning solutions.
-                    Currently working on industrial AI at craftworks GmbH.
-                </p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">↓</div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>
-                        I'm a Data Scientist with a passion for solving complex problems through AI and machine learning.
-                        With an MSc in Data Science from the University of Vienna, I specialize in industrial AI applications,
-                        computer vision, and optimization.
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Michael Raffelsberger</h1>
+                    <p class="subtitle">Data Scientist</p>
+                    <p class="description">
+                        I solve real-world problems with cutting-edge data science and machine learning solutions.
+                        Currently working on industrial AI at craftworks GmbH.
                     </p>
-                    <p>
-                        At craftworks GmbH, I currently work on cutting-edge projects ranging from parking space detection
-                        to visual anomaly detection systems. I love the intersection of theoretical knowledge and practical
-                        implementation.
-                    </p>
-                </div>
-                <div class="about-image">
-                    <div class="image-container">
-                        <img src="images/michael.png" alt="Michael Raffelsberger" class="profile-photo">
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="scroll-indicator">↓</div>
+        </section>
 
-    <section id="timeline" class="section">
-        <div class="container">
-            <h2 class="section-title">My Journey</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Data Scientist</h3>
-                        <h4>craftworks GmbH</h4>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
                         <p>
-                            Working on customer projects and contributing to internal products in the field of industrial AI.
-                            Topics ranging from computer vision to LLMs, time series analysis and optimization.
-                            Responsible for conceptualization, ML model development following SE best practices, packaging / containerization as well as MLOps topics such as retraining workflows.
+                            I'm a Data Scientist with a passion for solving complex problems through AI and machine learning.
+                            With an MSc in Data Science from the University of Vienna, I specialize in industrial AI applications,
+                            computer vision, and optimization.
                         </p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">Industrial AI</span>
-                            <span class="timeline-tag">Computer Vision</span>
-                            <span class="timeline-tag">Time Series</span>
-                            <span class="timeline-tag">Python</span>
-                        </div>
+                        <p>
+                            At craftworks GmbH, I currently work on cutting-edge projects ranging from parking space detection
+                            to visual anomaly detection systems. I love the intersection of theoretical knowledge and practical
+                            implementation.
+                        </p>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>MSc Data Science</h3>
-                        <h4>University of Vienna</h4>
-                        <p>Graduated (1.2) with focus on machine learning and advanced data analysis techniques.</p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">Machine Learning</span>
-                            <span class="timeline-tag">Statistics</span>
-                            <span class="timeline-tag">Python</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2021 - 2024</div>
-                    <div class="timeline-content">
-                        <h3>MSc Artificial Intelligence (incomplete) </h3>
-                        <h4>JKU Linz</h4>
-                        <p>Completed multiple courses (1.1) focusing on deep learning and advanced AI topics.</p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">Deep Learning</span>
-                            <span class="timeline-tag">AI</span>
-                            <span class="timeline-tag">Neural Networks</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - 2021</div>
-                    <div class="timeline-content">
-                        <h3>Applied Intelligence Intern</h3>
-                        <h4>Accenture</h4>
-                        <p>Developed R packages for data quality and duplicate detection.</p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">R</span>
-                            <span class="timeline-tag">Tabular Data</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2019 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>Teaching Assistant</h3>
-                        <h4>University of Vienna</h4>
-                        <p>Conducted tutorials and office hours for Mathematical Optimization and Mathematics courses, helping students understand complex mathematical concepts.</p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">Teaching</span>
-                            <span class="timeline-tag">Mathematics</span>
-                            <span class="timeline-tag">Optimization</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2017 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>BSc Statistics</h3>
-                        <h4>University of Vienna</h4>
-                        <p>Graduated with distinction (1.0). Member of the Class of Excellence 2018/19. Built a strong foundation in statistical theory and applications.</p>
-                        <div class="timeline-tags">
-                            <span class="timeline-tag">Statistics</span>
-                            <span class="timeline-tag">Mathematics</span>
-                            <span class="timeline-tag">R</span>
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="images/michael.png" alt="Michael Raffelsberger - Data Scientist" class="profile-photo" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Python</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Pydantic</span>
-                        <span class="skill-tag">Pytest</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">asyncio</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">Gradio</span>
-                        <span class="skill-tag">Streamlit</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">Seaborn</span>
-                        <span class="skill-tag">Plotly</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Machine Learning & Optimization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">PyTorch (Lightning)</span>
-                        <span class="skill-tag">scikit-learn</span>
-                        <span class="skill-tag">LightGBM</span>
-                        <span class="skill-tag">XGBoost</span>
-                        <span class="skill-tag">CatBoost</span>
-                        <span class="skill-tag">Darts</span>
-                        <span class="skill-tag">OR-Tools</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Computer Vision</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">Detectron2</span>
-                        <span class="skill-tag">timm</span>
-                        <span class="skill-tag">Anomalib</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>NLP / LLMs / GenAI</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Hugging Face</span>
-                        <span class="skill-tag">Unsloth</span>
-                        <span class="skill-tag">NLTK</span>
-                        <span class="skill-tag">LangChain</span>
-                        <span class="skill-tag">LangGraph</span>
-                        <span class="skill-tag">smolagents</span>
-                        <span class="skill-tag">OpenAI</span>
-                        <span class="skill-tag">Ollama</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Software Engineering & MLOps</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MLflow</span>
-                        <span class="skill-tag">Kedro</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Azure ML</span>
-                        <span class="skill-tag">Git</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Collaboration</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Jira</span>
-                        <span class="skill-tag">Confluence</span>
-                        <span class="skill-tag">Scrum</span>
-                        <span class="skill-tag">Google Workspace</span>
-                        <span class="skill-tag">Claude</span>
-                        <span class="skill-tag">ChatGPT</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">GitLab</span>
-                        <span class="skill-tag">Azure DevOps</span>
-                        <span class="skill-tag">Ubuntu</span>
-                        <span class="skill-tag">Slurm</span>
-                    </div>
+        <section id="timeline" class="section">
+            <div class="container">
+                <h2 class="section-title">My Journey</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-date">2022 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Data Scientist</h3>
+                            <h4>craftworks GmbH</h4>
+                            <p>
+                                Working on customer projects and contributing to internal products in the field of industrial AI.
+                                Topics ranging from computer vision to LLMs, time series analysis and optimization.
+                                Responsible for conceptualization, ML model development following SE best practices, packaging / containerization as well as MLOps topics such as retraining workflows.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Industrial AI</span>
+                                <span class="timeline-tag">Computer Vision</span>
+                                <span class="timeline-tag">Time Series</span>
+                                <span class="timeline-tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">2020 - 2023</div>
+                        <div class="timeline-content">
+                            <h3>MSc Data Science</h3>
+                            <h4>University of Vienna</h4>
+                            <p>Graduated (1.2) with focus on machine learning and advanced data analysis techniques.</p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Machine Learning</span>
+                                <span class="timeline-tag">Statistics</span>
+                                <span class="timeline-tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">2021 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>MSc Artificial Intelligence (incomplete) </h3>
+                            <h4>JKU Linz</h4>
+                            <p>Completed multiple courses (1.1) focusing on deep learning and advanced AI topics.</p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Deep Learning</span>
+                                <span class="timeline-tag">AI</span>
+                                <span class="timeline-tag">Neural Networks</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">2020 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Applied Intelligence Intern</h3>
+                            <h4>Accenture</h4>
+                            <p>Developed R packages for data quality and duplicate detection.</p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">R</span>
+                                <span class="timeline-tag">Tabular Data</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">2019 - 2020</div>
+                        <div class="timeline-content">
+                            <h3>Teaching Assistant</h3>
+                            <h4>University of Vienna</h4>
+                            <p>Conducted tutorials and office hours for Mathematical Optimization and Mathematics courses, helping students understand complex mathematical concepts.</p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Teaching</span>
+                                <span class="timeline-tag">Mathematics</span>
+                                <span class="timeline-tag">Optimization</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">2017 - 2020</div>
+                        <div class="timeline-content">
+                            <h3>BSc Statistics</h3>
+                            <h4>University of Vienna</h4>
+                            <p>Graduated with distinction (1.0). Member of the Class of Excellence 2018/19. Built a strong foundation in statistical theory and applications.</p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Statistics</span>
+                                <span class="timeline-tag">Mathematics</span>
+                                <span class="timeline-tag">R</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Featured Work</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Projects and News Coming Soon</h3>
-                    <p>
-                        I'm currently working on documenting and showcasing my recent work.
-                        Check back soon for more details
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Coming Soon</span>
-                    </div>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="skills-grid">
+                    <article class="skill-category">
+                        <h3>Python</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pydantic</span>
+                            <span class="skill-tag">Pytest</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">asyncio</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Gradio</span>
+                            <span class="skill-tag">Streamlit</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Seaborn</span>
+                            <span class="skill-tag">Plotly</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Machine Learning & Optimization</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch (Lightning)</span>
+                            <span class="skill-tag">scikit-learn</span>
+                            <span class="skill-tag">LightGBM</span>
+                            <span class="skill-tag">XGBoost</span>
+                            <span class="skill-tag">CatBoost</span>
+                            <span class="skill-tag">Darts</span>
+                            <span class="skill-tag">OR-Tools</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Computer Vision</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Detectron2</span>
+                            <span class="skill-tag">timm</span>
+                            <span class="skill-tag">Anomalib</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>NLP / LLMs / GenAI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Hugging Face</span>
+                            <span class="skill-tag">Unsloth</span>
+                            <span class="skill-tag">NLTK</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">LangGraph</span>
+                            <span class="skill-tag">smolagents</span>
+                            <span class="skill-tag">OpenAI</span>
+                            <span class="skill-tag">Ollama</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Software Engineering & MLOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MLflow</span>
+                            <span class="skill-tag">Kedro</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Azure ML</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Tools & Collaboration</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">Confluence</span>
+                            <span class="skill-tag">Scrum</span>
+                            <span class="skill-tag">Google Workspace</span>
+                            <span class="skill-tag">Claude</span>
+                            <span class="skill-tag">ChatGPT</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">GitLab</span>
+                            <span class="skill-tag">Azure DevOps</span>
+                            <span class="skill-tag">Ubuntu</span>
+                            <span class="skill-tag">Slurm</span>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section contact-section">
-        <div class="contact-links">
-            <a href="mailto:m.raffelsberger98@gmail.com" class="contact-link">
-                <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                </svg>
-                Email
-            </a>
-            <a href="https://linkedin.com/in/michael-raffelsberger" class="contact-link">
-                <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-                LinkedIn
-            </a>
-            <a href="https://github.com/MRaffl98" class="contact-link">
-                <svg class="icon" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                GitHub
-            </a>
-            <a href="https://kaggle.com/raffelsbem98" class="contact-link">
-                <svg class="icon" viewBox="40 40 70 70">
-                    <path d="M105.75 102.968c-.06.238-.298.357-.713.357H97.1c-.477 0-.89-.208-1.248-.625L82.746 86.028l-3.655 3.477v12.93c0 .595-.298.892-.892.892h-6.152c-.595 0-.892-.297-.892-.892V43.5c0-.593.297-.89.892-.89H78.2c.594 0 .892.298.892.89v36.288l15.692-15.87c.416-.415.832-.624 1.248-.624h8.204c.356 0 .593.15.713.445.12.357.09.624-.09.803L88.274 80.588l17.297 21.488c.237.238.297.535.18.892"/>
-                </svg>
-                Kaggle
-            </a>
-            <a href="https://www.goodreads.com/user/show/160099313-michael" class="contact-link">
-                <svg class="icon" viewBox="0 0 448 512">
-                    <path d="m299.9 191.2c5.1 37.3-4.7 79-35.9 100.7-22.3 15.5-52.8 14.1-70.8 5.7-37.1-17.3-49.5-58.6-46.8-97.2 4.3-60.9 40.9-87.9 75.3-87.5 46.9-.2 71.8 31.8 78.2 78.3zm148.1-103.2v336c0 30.9-25.1 56-56 56h-336c-30.9 0-56-25.1-56-56v-336c0-30.9 25.1-56 56-56h336c30.9 0 56 25.1 56 56zm-118 225.2s-.1-34-.1-217.3h-29v40.3c-.8.3-1.2-.5-1.6-1.2-9.6-20.7-35.9-46.3-76-46-51.9.4-87.2 31.2-100.6 77.8-4.3 14.9-5.8 30.1-5.5 45.6 1.7 77.9 45.1 117.8 112.4 115.2 28.9-1.1 54.5-17 69-45.2.5-1 1.1-1.9 1.7-2.9.2.1.4.1.6.2.3 3.8.2 30.7.1 34.5-.2 14.8-2 29.5-7.2 43.5-7.8 21-22.3 34.7-44.5 39.5-17.8 3.9-35.6 3.8-53.2-1.2-21.5-6.1-36.5-19-41.1-41.8-.3-1.6-1.3-1.3-2.3-1.3h-26.8c.8 10.6 3.2 20.3 8.5 29.2 24.2 40.5 82.7 48.5 128.2 37.4 49.9-12.3 67.3-54.9 67.4-106.3z"/>
-                </svg>
-                Goodreads
-            </a>
-        </div>
-    </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Work</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Projects and News Coming Soon</h3>
+                        <p>
+                            I'm currently working on documenting and showcasing my recent work.
+                            Check back soon for more details
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Coming Soon</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
+        <section id="contact" class="section contact-section">
+            <div class="contact-links">
+                <a href="mailto:m.raffelsberger98@gmail.com" class="contact-link" aria-label="Email Michael Raffelsberger">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    Email
+                </a>
+                <a href="https://linkedin.com/in/michael-raffelsberger" class="contact-link" aria-label="Michael Raffelsberger LinkedIn Profile" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/MRaffl98" class="contact-link" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://kaggle.com/raffelsbem98" class="contact-link" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="40 40 70 70">
+                        <path d="M105.75 102.968c-.06.238-.298.357-.713.357H97.1c-.477 0-.89-.208-1.248-.625L82.746 86.028l-3.655 3.477v12.93c0 .595-.298.892-.892.892h-6.152c-.595 0-.892-.297-.892-.892V43.5c0-.593.297-.89.892-.89H78.2c.594 0 .892.298.892.89v36.288l15.692-15.87c.416-.415.832-.624 1.248-.624h8.204c.356 0 .593.15.713.445.12.357.09.624-.09.803L88.274 80.588l17.297 21.488c.237.238.297.535.18.892"/>
+                    </svg>
+                    Kaggle
+                </a>
+                <a href="https://www.goodreads.com/user/show/160099313-michael" class="contact-link" target="_blank" rel="noopener">
+                    <svg class="icon" viewBox="0 0 448 512">
+                        <path d="m299.9 191.2c5.1 37.3-4.7 79-35.9 100.7-22.3 15.5-52.8 14.1-70.8 5.7-37.1-17.3-49.5-58.6-46.8-97.2 4.3-60.9 40.9-87.9 75.3-87.5 46.9-.2 71.8 31.8 78.2 78.3zm148.1-103.2v336c0 30.9-25.1 56-56 56h-336c-30.9 0-56-25.1-56-56v-336c0-30.9 25.1-56 56-56h336c30.9 0 56 25.1 56 56zm-118 225.2s-.1-34-.1-217.3h-29v40.3c-.8.3-1.2-.5-1.6-1.2-9.6-20.7-35.9-46.3-76-46-51.9.4-87.2 31.2-100.6 77.8-4.3 14.9-5.8 30.1-5.5 45.6 1.7 77.9 45.1 117.8 112.4 115.2 28.9-1.1 54.5-17 69-45.2.5-1 1.1-1.9 1.7-2.9.2.1.4.1.6.2.3 3.8.2 30.7.1 34.5-.2 14.8-2 29.5-7.2 43.5-7.8 21-22.3 34.7-44.5 39.5-17.8 3.9-35.6 3.8-53.2-1.2-21.5-6.1-36.5-19-41.1-41.8-.3-1.6-1.3-1.3-2.3-1.3h-26.8c.8 10.6 3.2 20.3 8.5 29.2 24.2 40.5 82.7 48.5 128.2 37.4 49.9-12.3 67.3-54.9 67.4-106.3z"/>
+                    </svg>
+                    Goodreads
+                </a>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="container">
             <p>&copy; 2025 Michael Raffelsberger. Built with passion for data and AI.</p>
