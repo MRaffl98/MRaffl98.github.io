@@ -34,9 +34,9 @@ function initNavbarScrollEffect() {
     window.addEventListener('scroll', () => {
         const nav = document.querySelector('nav');
         if (window.scrollY > 100) {
-            nav.style.background = 'var(--bg-nav)'; // This overrides with same value
+            nav.style.background = 'var(--bg-nav)';
         } else {
-            nav.style.background = 'var(--bg-nav)'; // This too
+            nav.style.background = 'var(--bg-nav)';
         }
     });
 }
