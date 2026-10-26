@@ -41,6 +41,20 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Set theme before first paint to avoid flash-of-wrong-theme -->
+    <script>
+        (function () {
+            var saved = localStorage.getItem('theme');
+            var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
@@ -88,8 +102,6 @@
     </script>
 </head>
 <body>
-    <div class="stars" id="stars"></div>
-
     <nav>
         <div class="nav-container">
             <div class="logo">mraffl98</div>
@@ -116,7 +128,7 @@
                     <h1>Michael Raffelsberger</h1>
                     <p class="subtitle">Data Scientist</p>
                     <p class="description">
-                        Experienced Data Scientist with 3+ years developing and deploying ML solutions across diverse industrial applications.
+                        Experienced Data Scientist with 4+ years developing and deploying ML solutions across diverse industrial applications.
                         Technical coordination experience as dev and epic lead, with expertise spanning classical ML, computer vision, and modern LLM technologies.
                         I solve real-world problems with cutting-edge data science and machine learning solutions.
                         Currently working on industrial AI at craftworks GmbH.
@@ -211,7 +223,7 @@
                         <div class="timeline-content">
                             <h3>Applied Intelligence Intern</h3>
                             <h4>Accenture</h4>
-                            <p>Developed R packages for data quality and duplicate detection.</p>
+                            <p>Developed an R package for duplicate detection.</p>
                             <div class="timeline-tags">
                                 <span class="timeline-tag">R</span>
                                 <span class="timeline-tag">Tabular Data</span>
@@ -257,17 +269,19 @@
                     <article class="skill-category">
                         <h3>Python</h3>
                         <div class="skill-tags">
-                            <span class="skill-tag">Pydantic</span>
-                            <span class="skill-tag">Pytest</span>
-                            <span class="skill-tag">Flask</span>
-                            <span class="skill-tag">asyncio</span>
                             <span class="skill-tag">NumPy</span>
                             <span class="skill-tag">Pandas</span>
-                            <span class="skill-tag">Gradio</span>
-                            <span class="skill-tag">Streamlit</span>
+                            <span class="skill-tag">SciPy</span>
                             <span class="skill-tag">Matplotlib</span>
                             <span class="skill-tag">Seaborn</span>
                             <span class="skill-tag">Plotly</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Pydantic</span>
+                            <span class="skill-tag">Pytest</span>
+                            <span class="skill-tag">asyncio</span>
+                            <span class="skill-tag">Gradio</span>
+                            <span class="skill-tag">Streamlit</span>
                         </div>
                     </article>
                     <article class="skill-category">
@@ -276,8 +290,6 @@
                             <span class="skill-tag">PyTorch (Lightning)</span>
                             <span class="skill-tag">scikit-learn</span>
                             <span class="skill-tag">LightGBM</span>
-                            <span class="skill-tag">XGBoost</span>
-                            <span class="skill-tag">CatBoost</span>
                             <span class="skill-tag">Darts</span>
                             <span class="skill-tag">OR-Tools</span>
                         </div>
@@ -294,14 +306,13 @@
                     <article class="skill-category">
                         <h3>NLP / LLMs / GenAI</h3>
                         <div class="skill-tags">
-                            <span class="skill-tag">Hugging Face</span>
-                            <span class="skill-tag">Unsloth</span>
+                            <span class="skill-tag">Pydantic AI</span>
+                            <span class="skill-tag">Docling</span>
+                            <span class="skill-tag">LangExtract</span>
                             <span class="skill-tag">NLTK</span>
-                            <span class="skill-tag">LangChain</span>
-                            <span class="skill-tag">LangGraph</span>
-                            <span class="skill-tag">smolagents</span>
-                            <span class="skill-tag">OpenAI</span>
-                            <span class="skill-tag">Ollama</span>
+                            <span class="skill-tag">LiteLLM</span>
+                            <span class="skill-tag">Hugging Face</span>
+                            <span class="skill-tag">OpenRouter</span>
                         </div>
                     </article>
                     <article class="skill-category">
@@ -310,24 +321,25 @@
                             <span class="skill-tag">MLflow</span>
                             <span class="skill-tag">Kedro</span>
                             <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">Azure ML</span>
+                            <span class="skill-tag">Azure Machine Learning</span>
+                            <span class="skill-tag">LangFuse</span>
                             <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">GitLab</span>
+                            <span class="skill-tag">Azure DevOps</span>
                         </div>
                     </article>
                     <article class="skill-category">
-                        <h3>Tools & Collaboration</h3>
+                        <h3>Misc</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">Jira</span>
                             <span class="skill-tag">Confluence</span>
                             <span class="skill-tag">Scrum</span>
                             <span class="skill-tag">Google Workspace</span>
-                            <span class="skill-tag">Claude (Code)</span>
-                            <span class="skill-tag">ChatGPT</span>
-                            <span class="skill-tag">Gemini</span>
-                            <span class="skill-tag">GitHub</span>
-                            <span class="skill-tag">GitLab</span>
-                            <span class="skill-tag">Azure DevOps</span>
+                            <span class="skill-tag">Claude Code</span>
+                            <span class="skill-tag">OpenCode</span>
                             <span class="skill-tag">Ubuntu</span>
+                            <span class="skill-tag">Debian</span>
                             <span class="skill-tag">Slurm</span>
                         </div>
                     </article>
@@ -373,7 +385,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2025 Michael Raffelsberger. Built with passion for data and AI.</p>
+            <p>&copy; <span id="year">2026</span> Michael Raffelsberger. Built with passion for data and AI.</p>
         </div>
     </footer>
 
